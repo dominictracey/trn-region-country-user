@@ -1,6 +1,6 @@
 Package.describe({
   name: "trn:user-country-region",
-  version: "1.0.1",
+  version: "1.1.0",
 });
 
 Package.onUse( function(api) {
@@ -9,7 +9,6 @@ Package.onUse( function(api) {
 
   api.use([
     'nova:core@1.0.0',
-    'nova:users',
   ]);
 
   api.mainModule("lib/modules.js", ["client", "server"]);
