@@ -1,5 +1,5 @@
 import React from 'react';
-import { registerComponent } from 'meteor/nova:core'
+import { registerComponent } from 'meteor/vulcan:core'
 import { CountryDropdown } from 'react-country-region-selector';
 
 class CountrySelector extends React.Component {
